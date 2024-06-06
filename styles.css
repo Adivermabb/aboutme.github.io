@@ -1,0 +1,35 @@
+/*====== GOOGLE FONTS ======*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+/*====== STYLE CSS ======*/
+*{box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:#f8f8f8;
+    font-family:'Inter',sans-serif;font-weight:400
+}
+.stm-main-wrapper{
+    max-width:800px;
+    margin:50px auto;
+    padding:40px;
+    background-color:#fff;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    border-radius:8px;
+}
+@media (max-width:767px){
+    .stm-main-wrapper{margin:25px;padding:25px}
+}
+p{
+    margin-bottom:25px;
+    font-size:16px;
+}
+a{
+    text-decoration:none;
+    color:#ff1919;
+}
+a:hover{text-decoration:underline;
+}
